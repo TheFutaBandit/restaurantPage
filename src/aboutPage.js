@@ -27,5 +27,5 @@ export const aboutScreen = (() => {
 
     contact_item("XQC", "poggers@gmail.com", "dudududududu im the waiter dud")
     contact_item("Forsen", "horse@gmail.com", "forsenDance")
-    contact_item("john", "john@gmail.com", "everybody hates john")
+    contact_item("John", "john@gmail.com", "everybody hates john")
 })

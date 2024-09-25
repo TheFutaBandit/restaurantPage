@@ -1,4 +1,5 @@
 import wings_image from "./images/wings.jpg"
+import "./homeStyle.css"
 
 export const homeScreenBootup = (() => {
 
@@ -6,7 +7,7 @@ export const homeScreenBootup = (() => {
 
     const main_title = document.createElement("h1");
     main_title.classList.add("main_title")
-    main_title.textContent = "Wingstop Bar"
+    main_title.textContent = "WINGSTOP BAR"
     content.appendChild(main_title);
 
     const menu = document.createElement("div");
