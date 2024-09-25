@@ -1,6 +1,5 @@
-import wings_image from "./wings.jpg"
-
-import { homeScreenBootup } from "./homepage"
+import { homeScreenBootup } from "./homePage"
+import { menuScreen } from "./menuPage";
 
 
 const webpageLoader = (() => {
@@ -20,7 +19,7 @@ const webpageLoader = (() => {
 
     menu.addEventListener("click", () => {
         clearPage();
-        homeScreenBootup();
+        menuScreen();
     })
 
     about.addEventListener("click", () => {

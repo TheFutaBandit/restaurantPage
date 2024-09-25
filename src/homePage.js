@@ -1,4 +1,4 @@
-import wings_image from "./wings.jpg"
+import wings_image from "./images/wings.jpg"
 
 export const homeScreenBootup = (() => {
 
